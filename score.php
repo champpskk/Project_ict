@@ -96,7 +96,7 @@ require_once 'config/dbconfig.php';
 											echo "<td>";
 
                        echo "<input type='text'>";
-											 echo "<span style='padding:5px;'><button class='btn btn-danger' id='event_del".$row['EVENT_ID']."' onclick='delEvent(".$row['EVENT_ID'].")' >EDIT</button></span>";
+											 echo "<span style='padding:5px;'><button class='btn btn-danger' id='event_del".$row['EVENT_ID']."' onclick='editscore(".$row['EVENT_ID'].")' >EDIT</button></span>";
 											 echo "<span style='padding:5px;'><a class='btn btn-success' href='event_edit.php?id=".$row['EVENT_ID']."'>SAVE</span>";
                        echo "</td>";
                       echo "</tr>";
